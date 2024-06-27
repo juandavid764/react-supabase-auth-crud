@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div>
-      Home sebastian
+      Home
       <button onClick={() => supabase.auth.signOut()}>Logout</button>
       <TaskFrom />
     </div>
